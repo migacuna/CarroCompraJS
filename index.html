@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logos2.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Vive Viajando</h2>
+                                <p>Descubre tu destino</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría hacer?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Miles de lugares por conocer <br>
+                        Explora los mas bellos destinos</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Profesionales del Ecoturismo <br>
+                        te llevaran a vivir la naturaleza</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Escoje la fecha<br>
+                        y viaja a tu ritmo</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-productos" class="container">
+        <h1 id="encabezado" class="encabezado">Elije tu aventura</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/volcan.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Ascenso Volcan con equipamiento completo, minimo 6 personas</h4>
+                        <p>Volcan Mocho</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$95.000  <span class="u-pull-right ">$75.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/rafting.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Rafting, equipo completo, minimo 6 personas</h4>
+                            <p>Rio Fuy</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$50.000  <span class="u-pull-right ">$35.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/cabalgata.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cabalgata, Bosque encantado</h4>
+                            <p>Panguipulli</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$50000  <span class="u-pull-right ">$25.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/montanbike.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Montanbike a campo traviesa</h4>
+                        <p>Cerro  San Juan Pedro</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$20.000  <span class="u-pull-right ">$10.000</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/bosquenevado.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Trekking con raquetas al bosque nevado</h4>
+                            <p>Reserva Mocho</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$50.000  <span class="u-pull-right ">$35.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/escaladahielo.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Escalada en Hielo, Nivel Medio</h4>
+                            <p>Sierra Nevada</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$75.000  <span class="u-pull-right ">$50.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        
+        
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">Ascensos</a>
+                                <a class="enlace" href="#">Trekking</a>
+                                <a class="enlace" href="#">Soporte</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="enlace" href="#">¿Quienes Somos?</a>
+                                <a class="enlace" href="#">Contacto</a>
+                                <a class="enlace" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
